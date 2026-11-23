@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  font-family: monospace;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.right {
+  width: 50%;
+  height: 100vh;
+  background: hsl(0, 250%, 250%);
+  text-align: center;
+}
+
+.right img {
+  width: 100%;
+  height: 95%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+p {
+  font-size: 12px;
+  max-width: 300px;
+}
+
+a {
+  color: black;
+}

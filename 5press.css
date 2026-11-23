@@ -1,0 +1,22 @@
+
+body {
+  margin: 40px;
+  font-family: monospace;
+}
+
+a {
+  color: black;
+}
+
+.article {
+  border-bottom: 1px solid black;
+  padding: 15px 0;
+}
+
+.article h3 {
+  margin-bottom: 5px;
+}
+
+.article p {
+  font-size: 12px;
+}

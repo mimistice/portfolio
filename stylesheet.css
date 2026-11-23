@@ -1,0 +1,34 @@
+
+body {
+  margin: 0;
+  background-image: url("WalkingShoes.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+h1 {
+  margin: 40px;
+  font-size: 24px;
+}
+
+nav {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
